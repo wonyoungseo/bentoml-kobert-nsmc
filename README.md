@@ -63,12 +63,13 @@ $ curl -X 'POST' 'http://127.0.0.1:3000/predict' -d '저 영화감독은 진짜 
 ```
 
 
-## 4. Future work
+## Future work
 
-- [ ] Fine-tune Korean pretrained LM with NSMC dataset 
+- [ ] Fine-tune pretrained LM with NSMC dataset
+- [ ] Model distilation (DistilBERT)
 - [ ] Save fine-tuned model to BentoML with Huggingface custom pipeline
 - [ ] Deploy with container // Deploy using cloud service
-- [ ] Build prototype application with CI/CD
+- [ ] Build prototype application and apply CI/CD
 
 ## Reference
 
