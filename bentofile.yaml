@@ -1,0 +1,10 @@
+service: "service:svc"
+labels:
+  owners: wyseo
+  stage: dev
+include:
+  - "*.py"
+python:
+  packages:
+    - torch
+    - transformers
